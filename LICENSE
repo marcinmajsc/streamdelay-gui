@@ -1,0 +1,130 @@
+Dual License: Non-Commercial License + Commercial License
+Version 1.1
+
+Copyright (c) 2026 Marcin Maj
+All rights reserved.
+
+This Software is licensed under a dual-license model.
+Use of the Software is permitted ONLY under one of the following licenses:
+
+------------------------------------------------------------
+1. NON-COMMERCIAL LICENSE
+------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software strictly for non-commercial purposes,
+subject to the conditions below.
+
+1.1 Definition of Non-Commercial Use
+"Non-commercial use" means use that is NOT:
+- intended for or directed toward commercial advantage,
+- intended to generate revenue (directly or indirectly),
+- part of a commercial product, service, or offering.
+
+Non-commercial use includes:
+- personal projects,
+- academic research,
+- educational use,
+- open research or hobby projects with no monetization.
+
+1.2 Explicitly Prohibited Under Non-Commercial License
+The following are considered COMMERCIAL USE and are NOT permitted under this
+license:
+- use in Software-as-a-Service (SaaS), PaaS, or hosted services,
+- use in internal systems of for-profit organizations,
+- use in products or services sold, licensed, or monetized,
+- use that supports paid consulting, support, or integration services,
+- use by contractors, freelancers, or consultants working for a commercial
+  entity,
+- use that provides operational, strategic, or financial value to a
+  for-profit organization, even if no fee is charged for the Software itself.
+
+1.3 Attribution and Notice Requirements
+All copies or substantial portions of the Software must retain:
+- this license text in full,
+- all copyright notices,
+- all author attributions, headers, and comments.
+
+Removing, obscuring, or modifying author information is strictly prohibited.
+
+1.4 No Sublicensing
+You may not sublicense, relicense, or distribute the Software under different
+license terms.
+
+1.5 Open-Source and Non-Profit Exception
+
+Notwithstanding the restrictions above, the Software may be used, modified, and
+distributed without a commercial license by non-profit organizations and
+open-source projects, provided that ALL of the following conditions are met:
+
+a) The organization is legally recognized as non-profit in its jurisdiction,
+   or the project is publicly available under an OSI-approved open-source
+   license.
+
+b) The Software is used solely for the purposes of the non-profit organization
+   or open-source project and not for the benefit of any for-profit entity.
+
+c) The Software is not used in any commercial product, service, SaaS, hosted
+   platform, or revenue-generating activity.
+
+d) The Software is not used to provide paid services, consulting, support, or
+   integration.
+
+e) No for-profit entity gains direct or indirect commercial advantage from the
+   use of the Software.
+
+f) All attribution and notice requirements of this license are fully complied
+   with.
+
+If any of the above conditions are not met, the use shall be considered
+Commercial Use and requires a Commercial License.
+
+------------------------------------------------------------
+2. COMMERCIAL LICENSE
+------------------------------------------------------------
+
+Any use of the Software that does not qualify as Non-Commercial Use requires a
+separate Commercial License.
+
+Commercial use includes, but is not limited to:
+- use in proprietary or closed-source software,
+- use in SaaS, cloud, or hosted environments,
+- internal use within for-profit companies,
+- use by contractors or third parties on behalf of a commercial entity,
+- embedding the Software in products or services offered commercially.
+
+Commercial use is permitted ONLY after:
+- obtaining prior written permission from the copyright holder, and
+- agreeing to and complying with a separate commercial license agreement,
+- paying applicable license fees, if required.
+
+For commercial licensing inquiries, contact: https://github.com/marcinmajsc
+
+------------------------------------------------------------
+1. GENERAL TERMS
+------------------------------------------------------------
+
+3.1 No Trademark Rights
+This license does not grant any rights to use the names, trademarks, service
+marks, or logos of the copyright holder.
+
+3.2 No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+3.3 Limitation of Liability
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+3.4 Governing Law
+This license shall be governed by and construed in accordance with the laws of
+the jurisdiction of the copyright holder, unless mandatory local law requires
+otherwise.
+
+------------------------------------------------------------
+END OF LICENSE
+------------------------------------------------------------
