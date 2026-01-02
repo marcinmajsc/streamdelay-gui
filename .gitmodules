@@ -1,0 +1,3 @@
+[submodule "streamdelay"]
+	path = streamdelay
+	url = https://github.com/marcinmajsc/streamdelay

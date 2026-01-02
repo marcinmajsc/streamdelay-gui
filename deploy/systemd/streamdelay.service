@@ -1,0 +1,29 @@
+[Unit]
+Description=streamdelay (SRT in -> delayed -> RTMP out)
+After=network.target
+
+[Service]
+User=streamops
+Group=streamops
+WorkingDirectory=/opt/streamdelay
+Environment=NODE_ENV=production
+
+ExecStart=/bin/bash -lc '\
+  OUT_URI="$(cat /etc/streamdelay/out_uri.txt 2>/dev/null | tr -d "\r" | xargs || true)"; \
+  if [ -z "$OUT_URI" ]; then OUT_URI="rtmp://127.0.0.1/live/placeholder"; fi; \
+  cd /opt/streamdelay && \
+  /usr/bin/npm start -- \
+    --api-hostname 0.0.0.0 \
+    --api-port 7070 \
+    --api-key lan-key \
+    --srt-in-uri "srt://0.0.0.0:9000?mode=listener&latency=200000" \
+    --out-uri "$OUT_URI" \
+    --delay-seconds 15 \
+    --overlay-img "/etc/streamdelay/overlay.png" \
+    --start false'
+
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

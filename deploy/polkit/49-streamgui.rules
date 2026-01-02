@@ -1,0 +1,14 @@
+// Allow www-data (Streamdelay-GUI) to manage ONLY streamdelay.service without interactive auth.
+polkit.addRule(function(action, subject) {
+  if (action.id == "org.freedesktop.systemd1.manage-units" &&
+      subject.user == "www-data") {
+
+    var unit = action.lookup("unit");
+    var verb = action.lookup("verb");
+
+    if (unit == "streamdelay.service" &&
+        (verb == "restart" || verb == "start" || verb == "stop")) {
+      return polkit.Result.YES;
+    }
+  }
+});

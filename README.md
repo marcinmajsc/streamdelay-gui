@@ -28,20 +28,6 @@ and integrates directly with the `streamdelay` backend via its local HTTP API.
 
 Browser → Streamdelay-GUI (Flask) → streamdelay (local API) → systemd
 
-### Requirements
-
-- Linux (Ubuntu 22.04 / 24.04 recommended)
-- Python ≥ 3.10
-- Flask
-- curl
-- systemd
-- Running streamdelay service with local API enabled
-
-### Security Model
-
-- Application runs as non-root (recommended: www-data)
-- Controlled systemd restart via sudoers
-- No public exposure of streamdelay API
 
 ### YouTube Stream Key Handling
 
@@ -58,8 +44,6 @@ Provides ready-to-use SRT output URL:
 srt://<this-server-ip>:9000?mode=caller&latency=200000
 ```
 
-Includes copy button and usage note.
-
 ### Theme Support
 
 - Auto (system)
@@ -67,6 +51,20 @@ Includes copy button and usage note.
 - Dark
 
 Stored in localStorage and applied instantly.
+
+---
+
+### Installation
+```bash
+git clone https://github.com/marcinmajsc/streamdelay-gui.git --recursive
+cd streamdelay-gui && sudo bash deploy/install_ubuntu_24.04.sh
+```
+
+---
+
+### Acknowledgements
+- [marcinmajsc](https://github.com/marcinmajsc/) - Author
+- [streamwall](https://github.com/streamwall/) - The maker backend base package streamdelay (Thanks! ❤️)
 
 ---
 
